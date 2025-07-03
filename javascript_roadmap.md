@@ -1,12 +1,17 @@
 
-# JavaScript Roadmap: From Basic to Advanced
+# 📘 JavaScript Roadmap: Beginner to Advanced (Interview & Practical Guide)
+
+This roadmap is structured into **7 progressive phases**, from beginner concepts to advanced topics, focusing on **interview preparation** and **real-world development**.
 
 ## ✅ 1. Master the Fundamentals (2–3 weeks)
 ### 📌 Topics:
-- Variables, data types, operators
-- Functions (arrow, normal)
-- Conditions, loops
-- Arrays and Objects
+- Variables: `var`, `let`, `const`
+- Data Types: primitive vs reference
+- Type Conversion (implicit & explicit)
+- Operators: arithmetic, comparison, logical
+- Conditionals: `if`, `else`, `switch`
+- Loops: `for`, `while`, `do...while`
+- Functions: declaration, expression, arrow
 
 ### 🎯 How to prepare:
 - Read: https://javascript.info
@@ -17,10 +22,21 @@
 
 ## ✅ 2. Deep Dive Into the Core Concepts (2 weeks)
 ### 📌 Topics:
-- `this`, hoisting, scope
+- Scope: block, function, global
+- Higher-order functions
+- Callback functions ✅
+- Promises
+- async/await 
+- Recursion
+- `this`
+- hoisting
+- scope
 - Closures ✅
-- Callbacks, Promises, async/await ✅
 - Event Loop ✅
+
+### ⚙️ Async JS Introduction
+- Event Loop & Call Stack
+- `setTimeout`, `setInterval`
 
 ### 🎯 How to prepare:
 - YouTube: [Namaste JavaScript by Akshay Saini](https://www.youtube.com/playlist?list=PLlasXeu85E9eLVlM4IT-abgQhxXzZY9jf)
@@ -32,9 +48,22 @@
 ## ✅ 3. Focus on ES6+ Modern JavaScript (1–2 weeks)
 ### 📌 Topics:
 - `let`, `const`, arrow functions
-- Destructuring, Spread/Rest
-- `for..of`, `map`, `filter`, `reduce`
-- Modules, Optional chaining, Nullish coalescing ✅
+- `map`, `filter`, `reduce`
+- Template literals
+- Destructuring
+- Spread & Rest operators
+- `for...of`, `for...in`
+- Default parameters
+- Enhanced object literals
+
+### 🧠 Advanced Features
+- Modules: `import`, `export`
+- Optional chaining (`?.`)
+- Nullish coalescing (`??`)
+- Symbol
+- Generators
+- `Proxy`, `Reflect`
+- WeakMap, WeakSet
 
 ### 🎯 How to prepare:
 - MDN + https://javascript.info
@@ -42,19 +71,46 @@
 
 ---
 
-## ✅ 4. DOM Manipulation & Browser APIs (1 week)
+## ✅ Phase 4: Asynchronous JavaScript (2 weeks)
+
+### 🧠 Concepts
+- Callbacks
+- Promises: `then`, `catch`, `finally`
+- `async/await`
+- Promise combinators: `Promise.all`, `Promise.race`
+- Microtasks vs Macrotasks
+
+### 🛠 Practice Ideas
+- Simulate network calls with Promises
+- Create a delay function using `async/await`
+- **Practice:** + https://Jsv9000.app
+
+---
+
+## ✅ 5. DOM Manipulation & Browser APIs (1 week)
 ### 📌 Topics:
-- DOM Selection & Events
-- Event Bubbling vs Capturing
-- LocalStorage / sessionStorage
-- Fetch API ✅
+### 🧠 DOM Manipulation
+- Selectors: `getElementById`, `querySelector`
+- Styling & attributes
+- Event listeners and delegation
+
+### 🧠 Browser APIs
+- Web Storage: `localStorage`, `sessionStorage`
+- Fetch API
+- FormData, File API
+- Event Bubbling & Capturing
+
+### 🛠 Practice Ideas
+- Form validator
+- Theme toggler
+- GitHub user search using Fetch API
 
 ### 🎯 How to prepare:
 - Projects: Form validator, Notes app, Infinite scroll, Theme toggler
 
 ---
 
-## ✅ 5. OOP in JavaScript (1 week)
+## ✅ 6. OOP in JavaScript (1 week)
 ### 📌 Topics:
 - Constructor Functions & Prototypes ✅
 - Classes, `extends`, `super`
@@ -66,30 +122,36 @@
 
 ---
 
-## ✅ 6. Interview-Oriented Problem Solving (ongoing)
-### 📌 DSA + JS:
-- Arrays, Strings, Recursion
-- Closures, Promises, Debounce
-- `this`, Event Delegation
+## ✅ Phase 7: Interview-Oriented Practice & Projects
 
-### 🎯 Practice on:
-- https://leetcode.com/problemset/all/?language=JavaScript
-- [CodeWithHarry DSA](https://www.youtube.com/c/CodeWithHarry/search?query=DSA)
-- https://neetcode.io
+### 📚 Topics to Revise
+- Closures
+- Event Loop
+- Debouncing & Throttling
+- Promises & async/await
+- DOM event delegation
+- Hoisting & `this`
 
----
+### 🔍 Platforms
+- [LeetCode](https://leetcode.com/problemset/all/?language=JavaScript)
+- [CodeWars](https://www.codewars.com/)
+- [Frontend Interview Handbook](https://frontendinterviewhandbook.com/)
 
-## ✅ 7. Build Real Projects (4–6)
-> Projects are your second resume
-
-### 📌 Ideas:
-- Expense tracker
-- GitHub user search (API)
-- Quiz App (with timer)
-- Custom JS framework (mini React)
-- Clone: YouTube, Trello, Spotify UI
+### 💡 Project Ideas
+- Quiz App with Timer
+- Expense Tracker
+- Weather App (API)
+- Clone: YouTube, Trello UI
 
 ---
+
+## 🛠 Recommended Tools & Resources
+
+- **Docs**: [MDN Web Docs](https://developer.mozilla.org/en-US/), [JavaScript.info](https://javascript.info)
+- **Courses**:
+  - Frontend Masters: JS Deep Dive
+  - Udemy: JavaScript - The Complete Guide
+- **Playgrounds**: CodePen, StackBlitz, JSFiddle
 
 ## 🧠 Mindset & Routine
 
